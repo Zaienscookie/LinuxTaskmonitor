@@ -1,0 +1,17 @@
+# Java build
+target/
+*.class
+
+# Bundled runtime & dist
+dist/
+
+# Dependencies (re-downloadable)
+lib/
+
+# Config with secrets
+config.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
