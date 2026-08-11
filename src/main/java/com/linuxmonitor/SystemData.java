@@ -14,6 +14,7 @@ public class SystemData {
     public List<ProcInfo> processes = new ArrayList<>();
     public int uptimeDays, uptimeHours, uptimeMin;
     public int totalProcs, runningProcs;
+    public String hostname = "";
     public boolean ok = true;
     public String error = "";
 

@@ -160,5 +160,9 @@ public class LinuxMonitor {
         if (r.exitCode == 0) {
             try { d.runningProcs = Integer.parseInt(r.stdout.trim()); } catch (Exception ignored) {}
         }
+        r = ssh.execute("hostname 2>/dev/null || cat /proc/sys/kernel/hostname", 5);
+        if (r.exitCode == 0) {
+            d.hostname = r.stdout.trim();
+        }
     }
 }
