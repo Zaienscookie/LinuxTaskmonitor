@@ -2,16 +2,10 @@
 target/
 *.class
 
-# Bundled runtime & dist
-dist/
-
-# Dependencies (re-downloadable)
-lib/
-
-# Config with secrets
-config.json
-
 # IDE
 .idea/
 *.iml
 .vscode/
+
+# Config with secrets (DO NOT commit real passwords)
+config.json

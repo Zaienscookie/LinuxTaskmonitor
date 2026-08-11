@@ -1,0 +1,2 @@
+JAVA_VERSION="21.0.8"
+MODULES="java.base java.datatransfer java.xml java.prefs java.desktop java.logging java.management java.security.sasl java.naming java.security.jgss jdk.crypto.ec jdk.crypto.cryptoki jdk.crypto.mscapi jdk.unsupported"

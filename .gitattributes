@@ -1,0 +1,11 @@
+# Include small config/script files in language stats
+pom.xml linguist-language=XML
+config.json.example linguist-language=JSON
+*.json linguist-language=JSON
+*.bat linguist-language=Batchfile
+*.ps1 linguist-language=PowerShell
+*.md linguist-language=Markdown
+*.properties linguist-language=Properties
+*.java linguist-language=Java
+setup.py linguist-language=Python
+Makefile linguist-language=Makefile
