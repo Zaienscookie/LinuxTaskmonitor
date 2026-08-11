@@ -1,8 +1,8 @@
 {
   "servers": [
     {
-      "name": "我的服务器",
-      "host": "192.168.1.100",
+      "name": "新服务器",
+      "host": "",
       "port": 22,
       "username": "root",
       "password": "",

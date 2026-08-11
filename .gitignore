@@ -9,3 +9,8 @@ target/
 
 # Config with secrets (DO NOT commit real passwords)
 /config.json
+
+# Duplicated launcher files (already in dist/)
+/app/
+/runtime/
+/LinuxMonitor.exe

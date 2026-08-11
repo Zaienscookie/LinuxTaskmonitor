@@ -52,6 +52,7 @@ public class Dashboard extends JFrame {
         this.bgColor = parseHex(config.bg_color, BG_DEF);
         setUndecorated(true);
         buildUi();
+        startPulse();
         updateStatus(false, "\u672a\u8fde\u63a5");
         addComponentListener(new ComponentAdapter() {
             @Override public void componentResized(ComponentEvent e) { updateShape(); }
@@ -370,8 +371,8 @@ public class Dashboard extends JFrame {
         statusDot.setForeground(c);
         statusLbl.setText(text.isEmpty() ? "\u5df2\u8fde\u63a5" : text);
         statusLbl.setForeground(connected ? COL_OK : FG_DIM);
-        if (connected) { pulseTimer.stop(); statusDot.setForeground(COL_OK); }
-        else { if (!pulseTimer.isRunning()) pulseTimer.start(); }
+        if (connected) { if (pulseTimer != null) pulseTimer.stop(); statusDot.setForeground(COL_OK); }
+        else { if (pulseTimer != null && !pulseTimer.isRunning()) pulseTimer.start(); }
     }
 
     // =================================================================
