@@ -7,5 +7,3 @@ config.json.example linguist-language=JSON
 *.md linguist-language=Markdown
 *.properties linguist-language=Properties
 *.java linguist-language=Java
-setup.py linguist-language=Python
-Makefile linguist-language=Makefile
