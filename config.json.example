@@ -11,5 +11,6 @@
     }
   ],
   "current_server": 0,
-  "refresh_interval": 2
+  "refresh_interval": 2,
+  "bg_color": "#1e1e2e"
 }

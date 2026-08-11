@@ -71,6 +71,7 @@ public class Main {
         public List<ServerInfo> servers = new ArrayList<>();
         public int current_server = 0;
         public int refresh_interval = 2;
+        public String bg_color = "#1e1e2e";
 
         public ServerInfo current() {
             if (servers == null || servers.isEmpty()) {
