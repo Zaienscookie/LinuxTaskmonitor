@@ -54,3 +54,5 @@ LinuxTaskmonitor/
     ├── LinuxMonitor.java     # 数据采集与解析
     └── Dashboard.java        # Swing 仪表盘界面
 ```
+
+> Last updated: 2026-08-18
